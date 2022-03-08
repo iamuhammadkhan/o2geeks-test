@@ -40,6 +40,14 @@
 		3E6C9EE427D76625007B96BF /* UserDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E6C9EE227D76625007B96BF /* UserDetailsTableViewCell.xib */; };
 		3E6C9EE727D772E8007B96BF /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6C9EE527D772E8007B96BF /* FriendsTableViewCell.swift */; };
 		3E6C9EE827D772E8007B96BF /* FriendsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E6C9EE627D772E8007B96BF /* FriendsTableViewCell.xib */; };
+		3E6C9EEB27D77889007B96BF /* UserMediaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6C9EE927D77889007B96BF /* UserMediaTableViewCell.swift */; };
+		3E6C9EEC27D77889007B96BF /* UserMediaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E6C9EEA27D77889007B96BF /* UserMediaTableViewCell.xib */; };
+		3E6C9EEF27D78386007B96BF /* CreatePostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6C9EED27D78386007B96BF /* CreatePostTableViewCell.swift */; };
+		3E6C9EF027D78386007B96BF /* CreatePostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E6C9EEE27D78386007B96BF /* CreatePostTableViewCell.xib */; };
+		3E6C9EF327D783BD007B96BF /* FeedTypeSelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6C9EF127D783BD007B96BF /* FeedTypeSelectionTableViewCell.swift */; };
+		3E6C9EF427D783BD007B96BF /* FeedTypeSelectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E6C9EF227D783BD007B96BF /* FeedTypeSelectionTableViewCell.xib */; };
+		3E6C9EF727D7842E007B96BF /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6C9EF527D7842E007B96BF /* FeedTableViewCell.swift */; };
+		3E6C9EF827D7842E007B96BF /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E6C9EF627D7842E007B96BF /* FeedTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +105,14 @@
 		3E6C9EE227D76625007B96BF /* UserDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailsTableViewCell.xib; sourceTree = "<group>"; };
 		3E6C9EE527D772E8007B96BF /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
 		3E6C9EE627D772E8007B96BF /* FriendsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsTableViewCell.xib; sourceTree = "<group>"; };
+		3E6C9EE927D77889007B96BF /* UserMediaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMediaTableViewCell.swift; sourceTree = "<group>"; };
+		3E6C9EEA27D77889007B96BF /* UserMediaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserMediaTableViewCell.xib; sourceTree = "<group>"; };
+		3E6C9EED27D78386007B96BF /* CreatePostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostTableViewCell.swift; sourceTree = "<group>"; };
+		3E6C9EEE27D78386007B96BF /* CreatePostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreatePostTableViewCell.xib; sourceTree = "<group>"; };
+		3E6C9EF127D783BD007B96BF /* FeedTypeSelectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTypeSelectionTableViewCell.swift; sourceTree = "<group>"; };
+		3E6C9EF227D783BD007B96BF /* FeedTypeSelectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTypeSelectionTableViewCell.xib; sourceTree = "<group>"; };
+		3E6C9EF527D7842E007B96BF /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		3E6C9EF627D7842E007B96BF /* FeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +280,14 @@
 				3E6C9EE227D76625007B96BF /* UserDetailsTableViewCell.xib */,
 				3E6C9EE527D772E8007B96BF /* FriendsTableViewCell.swift */,
 				3E6C9EE627D772E8007B96BF /* FriendsTableViewCell.xib */,
+				3E6C9EE927D77889007B96BF /* UserMediaTableViewCell.swift */,
+				3E6C9EEA27D77889007B96BF /* UserMediaTableViewCell.xib */,
+				3E6C9EED27D78386007B96BF /* CreatePostTableViewCell.swift */,
+				3E6C9EEE27D78386007B96BF /* CreatePostTableViewCell.xib */,
+				3E6C9EF127D783BD007B96BF /* FeedTypeSelectionTableViewCell.swift */,
+				3E6C9EF227D783BD007B96BF /* FeedTypeSelectionTableViewCell.xib */,
+				3E6C9EF527D7842E007B96BF /* FeedTableViewCell.swift */,
+				3E6C9EF627D7842E007B96BF /* FeedTableViewCell.xib */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -392,15 +416,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E6C9ED027D756FC007B96BF /* FriendsCollectionViewCell.xib in Resources */,
+				3E6C9EF027D78386007B96BF /* CreatePostTableViewCell.xib in Resources */,
 				3E6C9EE827D772E8007B96BF /* FriendsTableViewCell.xib in Resources */,
+				3E6C9EF427D783BD007B96BF /* FeedTypeSelectionTableViewCell.xib in Resources */,
 				3E6C9ED427D7571B007B96BF /* UserMediaCollectionViewCell.xib in Resources */,
 				3E6C9EE427D76625007B96BF /* UserDetailsTableViewCell.xib in Resources */,
 				3E6C9E8B27D6A4AB007B96BF /* LaunchScreen.storyboard in Resources */,
+				3E6C9EEC27D77889007B96BF /* UserMediaTableViewCell.xib in Resources */,
 				3E6C9EE027D75C77007B96BF /* FollowersTableViewCell.xib in Resources */,
 				3E6C9ED827D7575F007B96BF /* UserNameImageTableViewCell.xib in Resources */,
 				3E6C9EDC27D759AE007B96BF /* EditProfileTableViewCell.xib in Resources */,
 				3E6C9E8827D6A4AB007B96BF /* Assets.xcassets in Resources */,
 				3E6C9E8627D6A4A8007B96BF /* Main.storyboard in Resources */,
+				3E6C9EF827D7842E007B96BF /* FeedTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,10 +454,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E6C9EBD27D6B662007B96BF /* UICollectionView+Extension.swift in Sources */,
+				3E6C9EF727D7842E007B96BF /* FeedTableViewCell.swift in Sources */,
 				3E6C9E8327D6A4A8007B96BF /* MainViewController.swift in Sources */,
 				3E6C9ED727D7575F007B96BF /* UserNameImageTableViewCell.swift in Sources */,
 				3E6C9EE727D772E8007B96BF /* FriendsTableViewCell.swift in Sources */,
 				3E6C9EE327D76625007B96BF /* UserDetailsTableViewCell.swift in Sources */,
+				3E6C9EF327D783BD007B96BF /* FeedTypeSelectionTableViewCell.swift in Sources */,
+				3E6C9EEF27D78386007B96BF /* CreatePostTableViewCell.swift in Sources */,
 				3E6C9ECF27D756FC007B96BF /* FriendsCollectionViewCell.swift in Sources */,
 				3E6C9ED327D7571B007B96BF /* UserMediaCollectionViewCell.swift in Sources */,
 				3E6C9EDF27D75C77007B96BF /* FollowersTableViewCell.swift in Sources */,
@@ -443,6 +474,7 @@
 				3E6C9EB727D6B322007B96BF /* UIViewController+Extension.swift in Sources */,
 				3E6C9ECC27D754FE007B96BF /* ProfileTableViewSections.swift in Sources */,
 				3E6C9E8127D6A4A8007B96BF /* SceneDelegate.swift in Sources */,
+				3E6C9EEB27D77889007B96BF /* UserMediaTableViewCell.swift in Sources */,
 				3E6C9EC127D6B6B5007B96BF /* UIScrollView+Extension.swift in Sources */,
 				3E6C9EC327D6B6EA007B96BF /* UIFont+Extension.swift in Sources */,
 			);
