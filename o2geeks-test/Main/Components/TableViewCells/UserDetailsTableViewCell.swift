@@ -9,6 +9,10 @@ import UIKit
 
 final class UserDetailsTableViewCell: UITableViewCell {
 
+    @IBOutlet private weak var userDetailsIcon: UIImageView!
+    @IBOutlet private weak var userDetailsLabel: UILabel!
+    @IBOutlet private weak var mainStackView: UIStackView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }

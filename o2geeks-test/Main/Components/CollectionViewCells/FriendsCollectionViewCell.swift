@@ -9,6 +9,10 @@ import UIKit
 
 final class FriendsCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet private weak var userImageView: UIImageView!
+    @IBOutlet private weak var userNameLabel: UILabel!
+    @IBOutlet private weak var mainStackView: UIStackView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
