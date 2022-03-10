@@ -13,8 +13,8 @@ struct AppConstants {
         static let appWhite = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
         /// #000000
         static let appBlack = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
-        /// #1BEF9E
-        static let appGreen = UIColor(red: 0.1, green: 0.9, blue: 0.6, alpha: 1)
+        /// #6CB174
+        static let appGreen = UIColor(red: 0.42, green: 0.69, blue: 0.45, alpha: 1)
         /// #EDEDEE
         static let appContainerGrey = UIColor(red: 0.92, green: 0.92, blue: 0.92, alpha: 1)
         /// #EAEDF3

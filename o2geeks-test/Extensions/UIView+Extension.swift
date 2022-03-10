@@ -8,7 +8,7 @@
 import UIKit
 
 extension UIView {
-    func applyBorder(_ width: CGFloat = 1, color: UIColor = .lightGray) {
+    func applyBorder(_ width: CGFloat = 1, color: UIColor = AppConstants.Colors.appLightGrey) {
         layer.borderColor = color.cgColor
         layer.borderWidth = width
     }

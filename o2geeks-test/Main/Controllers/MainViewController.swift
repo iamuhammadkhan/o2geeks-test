@@ -33,6 +33,7 @@ final class MainViewController: UIViewController {
     private func setupTableView() {
         tableView.dataSource = self
         tableView.delegate = self
+        tableView.tableFooterView = UIView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 30))
         tableView.register(UINib(nibName: UserNameImageTableViewCell.identifier, bundle: nil), forCellReuseIdentifier: UserNameImageTableViewCell.identifier)
         tableView.register(UINib(nibName: EditProfileTableViewCell.identifier, bundle: nil), forCellReuseIdentifier: EditProfileTableViewCell.identifier)
         tableView.register(UINib(nibName: FollowersTableViewCell.identifier, bundle: nil), forCellReuseIdentifier: FollowersTableViewCell.identifier)
@@ -51,6 +52,9 @@ extension MainViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if sections[section] == .userDetailsSection {
+            return 4
+        }
         return 1
     }
     
@@ -62,6 +66,9 @@ extension MainViewController: UITableViewDataSource {
             return cell
         case .editProfileSection:
             let cell: EditProfileTableViewCell = tableView.dequeueReusableCell(for: indexPath)
+            cell.callBack = {
+                print("its tapped...")
+            }
             return cell
         case .followersSection:
             let cell: FollowersTableViewCell = tableView.dequeueReusableCell(for: indexPath)

@@ -9,16 +9,22 @@ import UIKit
 
 final class EditProfileTableViewCell: UITableViewCell {
 
+    lazy var callBack: (() -> Void)? = nil
+    
     @IBOutlet private weak var editButton: UIButton!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        editButton.applyCornerRadius(12)
+        setupViews()
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
+    private func setupViews() {
+        editButton.applyCornerRadius(8)
+        editButton.backgroundColor = AppConstants.Colors.appContainerGrey
+        editButton.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
     }
     
+    @objc private func buttonTapped() {
+        callBack?()
+    }
 }

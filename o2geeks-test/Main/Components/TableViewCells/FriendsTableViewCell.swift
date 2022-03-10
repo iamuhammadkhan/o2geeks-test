@@ -22,6 +22,7 @@ final class FriendsTableViewCell: UITableViewCell {
 
     private func setupViews() {
         setupCollectionView()
+        seperatorLine.backgroundColor = AppConstants.Colors.appLightGrey
     }
     
     private func setupCollectionView() {
