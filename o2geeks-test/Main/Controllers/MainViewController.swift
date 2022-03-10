@@ -54,6 +54,8 @@ extension MainViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if sections[section] == .userDetailsSection {
             return 4
+        } else if sections[section] == .userFeedsSection {
+            return 10
         }
         return 1
     }

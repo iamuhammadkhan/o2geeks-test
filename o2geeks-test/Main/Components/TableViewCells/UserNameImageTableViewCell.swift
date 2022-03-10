@@ -17,10 +17,10 @@ final class UserNameImageTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
+        setupViews()
     }
     
+    private func setupViews() {
+        userProfileImage.makeCircularView()
+    }
 }

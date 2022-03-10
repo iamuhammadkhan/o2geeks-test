@@ -9,8 +9,8 @@ import UIKit
 
 final class FeedTypeSelectionTableViewCell: UITableViewCell {
 
-    @IBOutlet private weak var seperatorLine: UIView!
     @IBOutlet private var postsButtons: [UIButton]!
+    @IBOutlet private weak var seperatorLine: UIView!
     @IBOutlet private weak var mainStackView: UIStackView!
     
     override func awakeFromNib() {

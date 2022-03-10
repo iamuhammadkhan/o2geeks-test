@@ -13,6 +13,10 @@ final class UserMediaCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        setupViews()
+    }
+    
+    private func setupViews() {
         mediaImageView.applyCornerRadius(4)
     }
 }

@@ -15,6 +15,10 @@ final class FriendsCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        setupViews()
     }
 
+    private func setupViews() {
+        userImageView.makeCircularView()
+    }
 }
